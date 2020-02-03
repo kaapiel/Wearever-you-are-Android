@@ -1,0 +1,52 @@
+{
+  "description": "All Stack8 Products extracted from xxx System",
+  "products": [{
+    "product": "SMACS",
+    "title": "The World's Leading User Provisioning Tool For Cisco UC",
+    "description": "The Stack8 Moves, Adds, and Changes System, or SMACS, is a Cisco provisioning tool that speeds up the provisioning process and allows non-technical staff to take over without errors.",
+    "projects": ["smacs-microservices", "smacs-android", "smacs-ios", "smacs-backend", "smacs-web-frontend"]
+  },
+    {
+      "product": "Webex",
+      "title": "Online Meetings and Video Conferencing Solutions",
+      "description": "While meetings are notorious time-wasters, people still find themselves in them all the time. How much of that time is being wasted?",
+      "projects": ["webex-microservices", "webex-android", "webex-ios", "webex-backend", "webex-web-frontend"]
+    },
+    {
+      "product": "Webex Calling",
+      "title": "Parlay UCaaS Offering Based on Cisco Webex Calling",
+      "description": "Parlay, from the French word “Parler,” meaning speak, is Stack8’s answer to the markets growing need for Unified Communications as a Service (UCaaS).",
+      "projects": ["webex-calling-microservices", "webex-calling-backend"]
+    },
+    {
+      "product": "Webex Contact Center",
+      "title": "Cloud-based UC for Contact Centers",
+      "description": "Cisco Webex Contact Center provides contact center staff with the ability to improve the customer experience and optimize performance with dynamic, predictive analytics.",
+      "projects": ["ccaas-microservices", "ccaas-backend", "ccaas-web-frontend", "ccaas-android", "ccaas-ios"]
+    },
+    {
+      "product": "Webex Teams Pilot",
+      "title": "Support, Deployment and Integration Services for Cisco Webex Teams",
+      "description": "The Webex Teams Pilot is about using Webex to create simple, intuitive collaboration experiences and full Webex integration.",
+      "projects": ["webex-teams-pilot-microservices", "webex-teams-pilot-backend", "webex-teams-pilot-web-frontend", "webex-teams-pilot-android", "webex-teams-pilot-ios"]
+    },
+    {
+      "product": "Webex Hybrid Services",
+      "title": "Directory Services, Calendar Services, Call Services",
+      "description": "Provide even greater Cisco Webex collaboration capabilities along with a consistent unified user and administrator experience.",
+      "projects": ["webex-hybrid-microservices", "webex-hybrid-backend", "webex-hybrid-web-frontend", "webex-hybrid-android", "webex-hybrid-ios"]
+    },
+    {
+      "product": "Contact Center Solutions",
+      "title": "Cloud Contact Center and Cisco Webex Contact Center Solutions",
+      "description": "Supercharge Your Cisco Unified Contact Center Express with Stack8 Tools for UCCX.",
+      "projects": ["uccx-microservices", "uccx-backend", "uccx-web-frontend", "uccx-android", "uccx-ios"]
+    },
+    {
+      "product": "Cisco Expressway",
+      "title": "Collaborate anywhere, anytime and on any device",
+      "description": "Acting as a proxy and a firewall between the corporate network and the Internet, Cisco Expressway allows companies to deploy voice, video and collaboration services without constraining their user location from within their offices or by forcing them to connect via the corporate VPN.",
+      "projects": ["expressway-microservices", "expressway-backend", "expressway-web-frontend", "expressway-android", "expressway-ios"]
+    }
+  ]
+}

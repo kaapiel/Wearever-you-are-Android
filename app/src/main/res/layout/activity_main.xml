@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dark_grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StackQAMain"
+    tools:deviceIds="wear"
+    android:backgroundTint="@color/black">
+
+        <ImageView
+            android:id="@+id/stack8_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_stack8"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/dark_blue"
+            android:layout_below="@+id/stack8_logo"
+            android:background="@drawable/round_button">
+        </Button>
+
+</RelativeLayout>

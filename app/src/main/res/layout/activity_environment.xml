@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dark_grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StackQAMain"
+    tools:deviceIds="wear"
+    android:padding="@dimen/box_inset_layout_padding"
+    android:backgroundTint="@color/black">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="left|right|bottom">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="@dimen/dismiss_padding"
+                android:layout_height="@dimen/dismiss_padding"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_full_cancel"
+                android:background="@drawable/round_icon"
+                android:layout_marginTop="15dp">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/txt_breadcrumbs"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit ="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/back_button"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true">
+            </TextView>
+
+            <ListView
+                android:id="@+id/list_environment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt_breadcrumbs"
+                android:paddingTop="@dimen/dismiss_padding">
+            </ListView>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>

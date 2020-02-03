@@ -1,0 +1,9 @@
+{
+  "stack8-api-prefix": "10.89.182.1:5555/",
+  "sonar-api-prefix" : "https://sonarcloud.io/api",
+  "update-all": "update-all",
+  "get-environment": "get-env",
+  "get-products": "get-prducts",
+  "get-sonar-project-status": "/measures/search?projectKeys=cielo_reports_app_android&metricKeys=alert_status,bugs,reliability_rating,vulnerabilities,security_rating,code_smells,sqale_rating,duplicated_lines_density,coverage,ncloc,ncloc_language_distribution",
+  "get-sonar-last-analysis": "/project_analyses/search?project=cielo_reports_app_android&ps=1"
+}

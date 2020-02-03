@@ -1,0 +1,24 @@
+{
+  "environments": [{
+    "environment": "DEV",
+    "title": "Here everything can happen",
+    "description": "Environment ready for new fetures"
+  },
+    {
+      "environment": "QA",
+      "title": "Here everything cannot happen",
+      "description": "Environment ready for tests"
+    },
+    {
+      "environment": "PROD",
+      "title": "Here everything will happen",
+      "description": "Environment ready for incidents"
+    }
+  ],
+  "sonar-server": "10.89.182.13:5555",
+  "jenkins-server": "10.89.182.14:5555",
+  "graphana-server": "10.89.182.15:5555",
+  "splunk-server": "10.89.182.16:5555",
+  "jira-server": "10.89.182.17:5555",
+  "sdm-server": "10.89.182.18:5555"
+}
