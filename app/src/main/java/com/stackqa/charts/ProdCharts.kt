@@ -25,10 +25,10 @@ class ProdCharts : WearableActivity() {
             val intent = Intent(this, StackQAMain::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun configBreadCrumb(breadCrumb: String) {
         txt_breadcrumbs.text = breadCrumb
+        txt_breadcrumbs.isSelected = true
     }
 }

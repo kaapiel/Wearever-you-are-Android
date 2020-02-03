@@ -13,7 +13,7 @@ import com.stackqa.models.Environments
 import kotlinx.android.synthetic.main.activity_environment.*
 import kotlinx.android.synthetic.main.activity_products.back_button
 
-class EnvironmentSelection : WearableActivity() {
+class Environments : WearableActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +37,7 @@ class EnvironmentSelection : WearableActivity() {
 
     private fun configBreadCrumb(breadCrumb: String) {
         txt_breadcrumbs.text = breadCrumb
+        txt_breadcrumbs.isSelected = true
     }
 
     private fun configList(breadCrumb: String, project: String) {

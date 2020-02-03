@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/inner_frame_layout_padding"
-        app:boxedEdges="left|right|bottom">
+        app:boxedEdges="right|left|bottom">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
                 android:layout_width="@dimen/dismiss_padding"
                 android:layout_height="@dimen/dismiss_padding"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/ic_full_cancel"
+                android:src="@drawable/ic_cc_clear"
                 android:background="@drawable/round_icon"
                 android:layout_marginTop="15dp">
             </ImageButton>
@@ -44,7 +44,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/back_button"
                 android:textColor="@color/white"
-                android:layout_centerHorizontal="true">
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:freezesText="true">
             </TextView>
 
             <androidx.wear.widget.WearableRecyclerView

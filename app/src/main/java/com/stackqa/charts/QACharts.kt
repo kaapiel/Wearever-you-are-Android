@@ -50,5 +50,6 @@ class QACharts : WearableActivity() {
 
     private fun configBreadCrumb(breadCrumb: String) {
         txt_breadcrumbs.text = breadCrumb
+        txt_breadcrumbs.isSelected = true
     }
 }
