@@ -47,13 +47,13 @@
                 android:layout_centerHorizontal="true">
             </TextView>
 
-            <ListView
+            <androidx.wear.widget.WearableRecyclerView
                 android:id="@+id/list_environment"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/txt_breadcrumbs"
                 android:paddingTop="@dimen/dismiss_padding">
-            </ListView>
+            </androidx.wear.widget.WearableRecyclerView>
 
         </RelativeLayout>
 

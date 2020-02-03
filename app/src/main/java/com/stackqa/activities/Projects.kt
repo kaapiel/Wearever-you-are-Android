@@ -3,10 +3,10 @@ package com.stackqa.activities
 import android.content.Intent
 import android.os.Bundle
 import android.support.wearable.activity.WearableActivity
-import android.view.View
-import android.widget.AdapterView
+import androidx.wear.widget.WearableLinearLayoutManager
 import com.stackqa.R
-import com.stackqa.adapters.ProjectsAdapter
+import com.stackqa.adapters.ProjectsRecyclerViewAdapter
+import com.stackqa.customs.CustomScrollingLayoutCallback
 import com.stackqa.models.Product
 import kotlinx.android.synthetic.main.activity_projects.*
 
@@ -25,23 +25,11 @@ class Projects : WearableActivity() {
         configureBreadCrumb(breadCrumb)
 
         val product = intent.getSerializableExtra("SelectedProduct") as Product
-        configProjectList(product)
+        configProjectList(product, breadCrumb)
 
         back_button.setOnClickListener {
             val intent = Intent(this, StackQAMain::class.java)
             startActivity(intent)
-        }
-
-        list_projects.setOnItemClickListener { _: AdapterView<*>, _: View, i: Int, _: Long ->
-
-            val projectName = list_projects.getItemAtPosition(i) as String
-            val intent = Intent(this, EnvironmentSelection::class.java)
-
-            intent.putExtra("BreadCrumb", breadCrumb.plus(" > ").plus(projectName).plus(" > "))
-            intent.putExtra("SelectedProject", projectName)
-            startActivity(intent)
-
-
         }
     }
 
@@ -49,8 +37,15 @@ class Projects : WearableActivity() {
         txt_breadcrumbs.text = breadCrumb.plus(" > ")
     }
 
-    private fun configProjectList(product: Product) {
-        list_projects.adapter = ProjectsAdapter(this, product.projects)
-        list_projects.dividerHeight = 0
+    private fun configProjectList(product: Product, breadCrumb: String) {
+
+        list_projects.adapter = ProjectsRecyclerViewAdapter(this, product.projects, breadCrumb)
+        list_projects.apply {
+            isEdgeItemsCenteringEnabled = true
+            layoutManager = WearableLinearLayoutManager(context, CustomScrollingLayoutCallback())
+            isCircularScrollingGestureEnabled = true
+            bezelFraction = 0.5f
+            scrollDegreesPerScreen = 90f
+        }
     }
 }
