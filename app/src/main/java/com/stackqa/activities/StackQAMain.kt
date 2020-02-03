@@ -28,7 +28,7 @@ class StackQAMain : WearableActivity() {
         val products = getListOfProducts()
 
         //Loading before button appear
-
+        //
         //x button to exit app
 
         btn_start.setOnClickListener {
