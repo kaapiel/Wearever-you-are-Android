@@ -26,7 +26,7 @@
                 android:layout_width="@dimen/dismiss_padding"
                 android:layout_height="@dimen/dismiss_padding"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/ic_full_cancel"
+                android:src="@drawable/ic_cc_clear"
                 android:background="@drawable/round_icon"
                 android:layout_marginTop="15dp">
             </ImageButton>
