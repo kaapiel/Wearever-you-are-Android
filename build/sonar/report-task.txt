@@ -1,0 +1,7 @@
+organization=wearever
+projectKey=wearever-you-are
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.4292
+dashboardUrl=https://sonarcloud.io/dashboard?id=wearever-you-are
+ceTaskId=AXAL55vFw5VZ7qzJ7o9s
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXAL55vFw5VZ7qzJ7o9s
