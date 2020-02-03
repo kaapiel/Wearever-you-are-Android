@@ -46,7 +46,9 @@
                 android:fadingEdge="horizontal"
                 android:scrollHorizontally="true"
                 android:textColor="@color/white"
-                android:layout_centerHorizontal="true">
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:freezesText="true">
             </TextView>
 
             <androidx.wear.widget.WearableRecyclerView

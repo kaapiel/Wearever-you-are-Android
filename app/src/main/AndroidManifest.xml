@@ -36,7 +36,7 @@
         </activity>
 
         <activity android:name=".activities.Products"/>
-        <activity android:name=".activities.EnvironmentSelection"/>
+        <activity android:name=".activities.Environments"/>
         <activity android:name=".charts.DevCharts"/>
         <activity android:name=".charts.QACharts"/>
         <activity android:name=".charts.ProdCharts"/>

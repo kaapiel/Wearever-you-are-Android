@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.stackqa.R
-import com.stackqa.activities.EnvironmentSelection
+import com.stackqa.activities.Environments
 import kotlinx.android.synthetic.main.round_button_list_item.view.*
 
 class ProjectsRecyclerViewAdapter (
@@ -30,7 +30,7 @@ class ProjectsRecyclerViewAdapter (
 
         holder.view.item_list_btn_text.setOnClickListener {
             val projectName = myDataSet[position]
-            val intent = Intent(context, EnvironmentSelection::class.java)
+            val intent = Intent(context, Environments::class.java)
             intent.putExtra("BreadCrumb", breadCrumb.plus(" > ").plus(projectName).plus(" > "))
             intent.putExtra("SelectedProject", projectName)
             context.startActivity(intent)

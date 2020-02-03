@@ -35,6 +35,7 @@ class Projects : WearableActivity() {
 
     private fun configureBreadCrumb(breadCrumb: String) {
         txt_breadcrumbs.text = breadCrumb.plus(" > ")
+        txt_breadcrumbs.isSelected = true
     }
 
     private fun configProjectList(product: Product, breadCrumb: String) {
