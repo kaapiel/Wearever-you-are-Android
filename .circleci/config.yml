@@ -22,7 +22,7 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
           name: Run Tests
-          command: ./gradlew lint test | yes | sdkmanager --licenses && sdkmanager --update | yes | yes
+          command: ./gradlew lint test | yes | android update sdk --no-ui --all --filter platform-tools,tools,extra-android-m2repository,extra-google-m2repository
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/ 
           path: app/build/reports
           destination: reports
