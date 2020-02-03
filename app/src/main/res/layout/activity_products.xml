@@ -18,8 +18,8 @@
         app:boxedEdges="right|left|bottom">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center">
 
             <ImageButton
@@ -32,14 +32,15 @@
                 android:layout_marginTop="15dp">
             </ImageButton>
 
-            <ListView
+            <androidx.wear.widget.WearableRecyclerView
                 android:id="@+id/list_products"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/back_button"
                 android:paddingTop="@dimen/dismiss_padding"
+                android:layout_centerHorizontal="true"
                 android:orientation="vertical">
-            </ListView>
+            </androidx.wear.widget.WearableRecyclerView>
 
         </RelativeLayout>
 

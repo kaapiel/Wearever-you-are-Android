@@ -1,6 +1,5 @@
 package com.stackqa.charts
 
-import PagerIndicatorDecoration
 import android.content.Intent
 import android.os.Bundle
 import android.support.wearable.activity.WearableActivity
@@ -10,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.stackqa.R
 import com.stackqa.activities.StackQAMain
 import com.stackqa.adapters.JiraRecyclerViewAdapter
-import com.stackqa.adapters.SonarRecyclerViewAdapter
+import com.stackqa.customs.PagerIndicatorDecoration
 import com.stackqa.management.Utils
 import kotlinx.android.synthetic.main.activity_qa_charts.*
 
