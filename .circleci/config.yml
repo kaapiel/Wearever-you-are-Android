@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/Wearever-you-are
+    working_directory: ~/Wearever-you-are-Android
     docker:
       - image: circleci/android:api-29
     environment:
