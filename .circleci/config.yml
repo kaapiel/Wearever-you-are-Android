@@ -15,10 +15,10 @@ jobs:
 #         command: sudo chmod +x ./gradlew
       - run:
           name: Update SDK Manager
-          command: yes | sdkmanager --update
+          command: yes | sdkmanager --update || exit 0
       - run:
           name: Licenses SDK Manager
-          command: yes | sdkmanager --licenses
+          command: yes | sdkmanager --licenses || exit 0
       - run:
           name: Download Dependencies
           command: ./gradlew androidDependencies
