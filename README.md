@@ -1,4 +1,6 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/home.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/tests-execution-passd.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/project-selection.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Wearever-you-are&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Wearever-you-are&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are)
@@ -26,10 +28,11 @@ Install this wear app on any Android wear device to test it!
 
 <h2 id="examples">Examples :eyes:</h2>
 
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/test-coverage.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/jira-bugs.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/sonar-code-smell.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/sonar-bugs.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/sonar-vulnerabilities.png)
 
 <br/>
 
