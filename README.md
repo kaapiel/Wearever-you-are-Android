@@ -1,6 +1,5 @@
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Wearever-you-are-Android/banner.png)
 
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Wearever-you-are&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Wearever-you-are&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Wearever-you-are&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are)
@@ -10,7 +9,7 @@
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 # Wearever you are
-Know the current quality of your system, real-time.
+Know the current quality of your system, real-time
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
