@@ -11,6 +11,12 @@
 # Wearever you are
 Know the current quality of your system, real-time
 
+### To access SonarCloud data use this link: 
+#### https://sonarcloud.io/dashboard?id=kaapiel_Wearever-you-are
+
+### To access pipeline and CI data use this link: 
+#### https://circleci.com/gh/kaapiel/Wearever-you-are-Android
+
 ## Table of Contents
 1. [Quick Start](#quick-start)
 1. [Example usage](#examples)
